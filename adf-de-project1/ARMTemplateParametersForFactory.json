@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-de-project1"
+		},
+		"AzureSqlDatabase_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=serverdeproject1.database.windows.net;Initial Catalog=dbdeproject;User ID=dbadmin"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://kv-de-project1.vault.azure.net/"
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://adlsdeproject1.dfs.core.windows.net/"
+		}
+	}
+}
