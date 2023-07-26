@@ -5,17 +5,17 @@
 		"factoryName": {
 			"value": "adf-de-project1"
 		},
-		"AzureSqlDatabase_connectionString": {
-			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=serverdeproject1.database.windows.net;Initial Catalog=dbdeproject;User ID=dbadmin"
-		},
 		"AzureDataLakeStorage_accountKey": {
 			"value": ""
 		},
-		"AzureKeyVault_properties_typeProperties_baseUrl": {
-			"value": "https://kv-de-project1.vault.azure.net/"
+		"AzureSqlDatabase_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=serverdeproject1.database.windows.net;Initial Catalog=dbdeproject;User ID=dbadmin"
 		},
 		"AzureDataLakeStorage_properties_typeProperties_url": {
 			"value": "https://adlsdeproject1.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://kv-de-project1.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
